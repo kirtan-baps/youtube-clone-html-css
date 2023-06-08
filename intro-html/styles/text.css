@@ -1,0 +1,58 @@
+p {
+    /* font-family: Arial; */
+    /* font-family: Roboto; */
+    font-family: Montserrat;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.video-title {
+    font-size: 30px;
+    font-weight: bold;
+    /* font-style: italic; */
+    /* text-align: center; */
+    width: 400px;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+.views {
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 20px;
+}
+
+.video-author {
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 20px;
+}
+
+.video-description {
+    font-size: 14px;
+    color: #606060;
+    width: 300px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.apple-text {
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    /* align-content: center; */
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* text-decoration: underline; */
+}
+
+.span-example {
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.span-example:hover {
+    text-decoration: underline;
+}

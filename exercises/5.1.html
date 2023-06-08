@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .a {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .a1 {
+            background-color: lightblue;
+            width: 200px;
+        }
+
+        .a2 {
+            background-color: lightpink;
+            width: 75px;
+        }
+
+        .numbers {
+            background-color: blueviolet;
+            padding: 8px;
+            border-radius: 20px;
+            color: white;
+            display: flex;
+        }
+
+        /*  */
+        /*  */
+        /*  */
+        .navbar {
+            display: flex;
+            background-color: blueviolet;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .home {
+            font-size: 20px;
+            font-weight: bold;
+            color: aliceblue;
+            font-family: Arial;
+        }
+
+        .searchbar {
+            flex: 1px;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 20px;
+            font-size: 18px;
+            border: none;
+        }
+
+        .download-button {
+            background-color: blueviolet;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 3px;
+            border-color: white;
+            border: groove;
+            border-width: 1px;
+            font-size: 20px;
+            color: aliceblue;
+            font-family: Arial;
+        }
+    </style>
+</head>
+
+<body style="margin: 0;">
+    <div class="navbar">
+        <div class="home">Home</div>
+        <input class="searchbar" placeholder="Search" />
+        <button class="download-button">Download</button>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="a">
+        <div class="a1">200px</div>
+        <div class="a2">75px</div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="a">
+        <div style="background-color: lightblue; width: 50px">item1</div>
+        <div style="background-color: lightpink; flex: 1">item2</div>
+        <div style="background-color: lightblue; width: 75px">item3</div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="a" style="justify-content: space-between">
+        <div style="background-color: lightpink; width: 50px">item2</div>
+        <div style="background-color: lightpink; width: 50px">item2</div>
+        <div style="background-color: lightpink; width: 50px">item2</div>
+        <div style="background-color: lightpink; width: 50px">item2</div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div style="
+        display: flex;
+        flex-direction: row;
+        border: solid;
+        border-width: 1px;
+        border-color: grey;
+        height: 150px;
+        align-items: center;
+        justify-content: space-between;
+      ">
+        <div style="background-color: lightpink; width: 50px">item1</div>
+        <div style="background-color: lightpink; width: 50px">item2</div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+
+    <div
+        style="border-radius: 8px; background-color: antiquewhite; border: 1px;border-style: solid; width: 300px; padding: 10px;">
+        <div
+            style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; padding: 3px;">
+            <div style="margin: 0 ;font-family: Arial;">Home</div>
+            <div class="numbers">14</div>
+        </div>
+        <div
+            style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; padding: 3px;">
+            <div style="margin: 0 ;font-family: Arial;">Notifications</div>
+            <div class="numbers">1</div>
+        </div>
+        <div
+            style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; padding: 3px;">
+            <div style="margin: 0 ;font-family: Arial;">Messages</div>
+            <div class="numbers">5</div>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+
+</body>
+
+</html>

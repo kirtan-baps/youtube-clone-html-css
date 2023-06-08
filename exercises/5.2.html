@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-section {
+            width: 500px;
+            /* border: solid; */
+            /* border-width: 1px; */
+        }
+
+        .per-item-section {
+            margin: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .img-class {
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            object-position: left;
+            border-radius: 50px;
+            margin-right: 15px;
+        }
+
+        .details {
+            width: 200px;
+            font-family: Arial;
+        }
+
+        .details-name {
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+
+        .details-category {
+            color: rgb(150, 150, 150);
+            margin-bottom: 5px;
+        }
+
+        .details-popularity {
+            color: rgb(150, 150, 150);
+            font-size: 14px;
+        }
+
+        .follow-button {
+            background-color: rgb(29, 155, 240);
+            color: white;
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-section">
+
+        <div class="per-item-section">
+            <img class="img-class" src="/thumbnails/thumbnail-1.webp" alt="">
+            <div class="details">
+                <div class="details-name">Oliver</div>
+                <div class="details-category">the cat</div>
+                <div class="details-popularity">Popular</div>
+            </div>
+            <button class="follow-button">Follow</button>
+        </div>
+        <div class="per-item-section">
+            <img class="img-class" src="/thumbnails/thumbnail-1.webp" alt="">
+            <div class="details">
+                <div class="details-name">Oliver</div>
+                <div class="details-category">the cat</div>
+                <div class="details-popularity">Popular</div>
+            </div>
+            <button class="follow-button">Follow</button>
+        </div>
+        <div class="per-item-section">
+            <img class="img-class" src="/thumbnails/thumbnail-1.webp" alt="">
+            <div class="details">
+                <div class="details-name">Oliver</div>
+                <div class="details-category">the cat</div>
+                <div class="details-popularity">Popular</div>
+            </div>
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
